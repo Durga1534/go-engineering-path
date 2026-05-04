@@ -1,6 +1,8 @@
 # Task Tracker CLI
 
-A simple Command Line Interface (CLI) built with **Go** to manage your daily tasks. This project is part of my journey to master backend engineering and follows the roadmap and requirements from [roadmap.sh](https://roadmap.sh/projects/task-tracker).
+A simple Command Line Interface (CLI) built with **Go** to manage your daily tasks. This project is part of my journey to master backend engineering and follows the roadmap and requirements from [roadmap.sh]
+
+**Project URL:** https://roadmap.sh/projects/task-tracker
 
 ## 🚀 Features
 - **Add Tasks**: Quickly create new tasks with descriptions.
