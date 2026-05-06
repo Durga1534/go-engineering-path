@@ -8,3 +8,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [GitHub Activity](./beginner/github-activity) - **Project URL:** [https://roadmap.sh/projects/github-user-activity]
 
 - [Expense Tracker](./beginner/expense-tracker) - **Project URL:** [https://roadmap.sh/projects/expense-tracker]
+
+- [Number Guessing Game](./beginner/number-guessing) - **Project URL:** [https://roadmap.sh/projects/number-guessing-game]
