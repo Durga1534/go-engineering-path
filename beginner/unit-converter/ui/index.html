@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Unit Converter</h2>
+        <form method="POST">
+            <input type="number" name="value" step="any" required>
+            <select name="type">
+                <option value="length">Length</option>
+                <option value="temperature">Temperature</option>
+            </select>
+            <input type="text" name="from" placeholder="from (e.g. meter)">
+            <input type="text" name="to" placeholder="to (e.g. kilometer)">
+            <button type="submit">Convert</button>
+        </form>
+        {{if .Submitted}}
+        <h3>Result: {{.Result}}</h3>
+        {{end}}
+    </body>
+</html>
