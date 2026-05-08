@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Dashboard</title></head>
+<body>
+    <h1>Admin Dashboard</h1>
+    <a href="/admin/new">Add New Article</a> | <a href="/">View Live Blog</a>
+    <hr>
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+        {{range .}}
+        <tr>
+            <td>{{.Title}}</td>
+            <td>{{.Published}}</td>
+            <td>
+                <a href="/admin/edit/{{.Slug}}">Edit</a> | 
+                <a href="/admin/delete/{{.Slug}}" onclick="return confirm('Delete this?')">Delete</a>
+            </td>
+        </tr>
+        {{end}}
+    </table>
+</body>
+</html>

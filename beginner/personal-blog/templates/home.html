@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Personal Blog</title></head>
+<body>
+    <h1>Welcome to My Blog</h1>
+    <hr>
+    {{range .}}
+    <div>
+        <h2><a href="/article/{{.Slug}}">{{.Title}}</a></h2>
+        <p>Published on: {{.Published}}</p>
+    </div>
+    {{else}}
+    <p>No articles yet. Check back later!</p>
+    {{end}}
+</body>
+</html>
