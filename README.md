@@ -12,3 +12,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [Number Guessing Game](./beginner/number-guessing) - **Project URL:** [https://roadmap.sh/projects/number-guessing-game]
 
 - [Unit Converter](./beginner/unit-converter) - **Project URL:** [https://roadmap.sh/projects/unit-converter]
+
+- [Personal Blog](./beginner/personal-blog) - **Project URL:** [https://roadmap.sh/projects/personal-blog]
