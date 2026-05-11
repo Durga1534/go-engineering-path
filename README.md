@@ -14,3 +14,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [Unit Converter](./beginner/unit-converter) - **Project URL:** [https://roadmap.sh/projects/unit-converter]
 
 - [Personal Blog](./beginner/personal-blog) - **Project URL:** [https://roadmap.sh/projects/personal-blog]
+
+- [Weather API](./beginner/weather-api) - **Project URL:** [https://roadmap.sh/projects/weather-api-wrapper-service]
