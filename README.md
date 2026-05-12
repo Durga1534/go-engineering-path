@@ -16,3 +16,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [Personal Blog](./beginner/personal-blog) - **Project URL:** [https://roadmap.sh/projects/personal-blog]
 
 - [Weather API](./beginner/weather-api) - **Project URL:** [https://roadmap.sh/projects/weather-api-wrapper-service]
+
+- [Blogging Platform API](./beginner/blogging-api) - **Project URL:**  [https://roadmap.sh/projects/blogging-platform-api]
