@@ -8,6 +8,7 @@ import (
 
 	"todo-api/internal/database"
 	"todo-api/internal/handlers"
+	"todo-api/internal/middlewares"
 )
 
 func main() {
@@ -18,7 +19,7 @@ func main() {
 	http.HandleFunc("/register", handlers.Register)
 	http.HandleFunc("/login", handlers.Login)
 
-	http.HandleFunc("/todos", middleware.AuthMiddleware(func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/todos", middlewares.AuthMiddleware(func(w http.ResponseWriter, r *http.Request) {
 		switch r.Method {
 		case http.MethodGet:
 			handlers.GetTodos(w, r)
@@ -29,7 +30,7 @@ func main() {
 		}
 	}))
 
-	http.HandleFunc("/todos/", middleware.AuthMiddleware(func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/todos/", middlewares.AuthMiddleware(func(w http.ResponseWriter, r *http.Request) {
 		idStr := strings.TrimPrefix(r.URL.Path, "/todos/")
 		if idStr == "" {
 			http.NotFound(w, r)
