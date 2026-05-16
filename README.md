@@ -20,3 +20,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [Blogging Platform API](./beginner/blogging-api) - **Project URL:**  [https://roadmap.sh/projects/blogging-platform-api]
 
 - [Todo List API](./beginner/todo-api) - **Project URL:**[https://roadmap.sh/projects/todo-list-api]    
+
+- [Expense Tracker API](./beginner/expense-tracker-api) - **Project URL:** [https://www.google.com/search?q=https://roadmap.sh/projects/expense-tracker-api]
