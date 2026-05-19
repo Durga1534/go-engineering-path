@@ -2,7 +2,7 @@
 
 This repository contains my progress through the roadmap.sh backend projects.
 
-## Projects
+## Beginner Projects
 - [Task Tracker](./beginner/task-tracker) - **Project URL:** [https://roadmap.sh/projects/task-tracker]
 
 - [GitHub Activity](./beginner/github-activity) - **Project URL:** [https://roadmap.sh/projects/github-user-activity]
@@ -22,3 +22,7 @@ This repository contains my progress through the roadmap.sh backend projects.
 - [Todo List API](./beginner/todo-api) - **Project URL:**[https://roadmap.sh/projects/todo-list-api]    
 
 - [Expense Tracker API](./beginner/expense-tracker-api) - **Project URL:** [https://www.google.com/search?q=https://roadmap.sh/projects/expense-tracker-api]
+
+
+## Intermediate Projects
+- [Caching Proxy](./intermediate/caching-proxy) - **Project URL:** [https://roadmap.sh/projects/caching-server]
