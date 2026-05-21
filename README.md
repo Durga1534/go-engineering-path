@@ -26,3 +26,5 @@ This repository contains my progress through the roadmap.sh backend projects.
 
 ## Intermediate Projects
 - [Caching Proxy](./intermediate/caching-proxy) - **Project URL:** [https://roadmap.sh/projects/caching-server]
+
+- [Markdown Note Taking API](./intermediate/markdown-note-taking) - **Project URL:** [https://roadmap.sh/projects/markdown-note-taking-app]
